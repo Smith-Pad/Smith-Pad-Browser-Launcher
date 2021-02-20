@@ -1,0 +1,181 @@
+/*
+Smith-Pad Browser Launcher
+Written by Senal Bulumulle
+
+
+_                           _
+| |    __ _ _   _ _ __   ___| |__   ___ _ __
+| |   / _` | | | | '_ \ / __| '_ \ / _ \ '__|
+| |__| (_| | |_| | | | | (__| | | |  __/ |
+|_____\__,_|\__,_|_| |_|\___|_| |_|\___|_|
+
+
+
+*/
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+  font-family: sans-serif;
+  background-color: black;
+  display: inline-flexbox;
+  color: white;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+ul {
+  padding: 16px 32px;
+  background-color: transparent;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+li {
+  padding: 16px 32px;
+  background-color: #533831;
+  color: white;
+  border-style: double;
+  border: 10px;
+  border-radius: 2px;
+}
+
+.main-screen {
+  background-color: black;
+  color: white;
+  padding: 10em 1em;
+  position: relative;
+  z-index: 2;
+}
+
+.main-screen.color-one {
+  background-color: #565c5e;
+}
+
+.main-screen.color-two {
+  background-color: #455954;
+}
+
+.main-screen.color-three {
+  background-color: #9d7463;
+}
+
+.main-screen.color-four {
+  background-color: #b5c2c7;
+}
+
+.main-screen-color-five {
+  background-color: #dfdbd8;
+}
+
+.main-secondary-screen {
+  background-color: black;
+  color: white;
+  padding: 6em 1em;
+  position: center;
+  z-index: 2;
+}
+
+.main-secondary-screen.color-one {
+  background-color: #565c5e;
+}
+
+.main-secondary-screen.color-two {
+  background-color: #455954;
+}
+
+.main-secondary-screen.color-three {
+  background-color: #9d7463;
+}
+
+.main-secondary-screen.color-four {
+  background-color: #b5c2c7;
+}
+
+.main-secondary-screen-color-five {
+  background-color: #dfdbd8;
+}
+
+.content {
+  margin: 22px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.content.color-one {
+  background-color: #565c5e;
+}
+
+.content.color-two {
+  background-color: #455954;
+}
+
+.content.color-three {
+  background-color: #9d7463;
+}
+
+.content.color-four {
+  background-color: #b5c2c7;
+}
+
+.content.color-five {
+  background-color: #dfdbd8;
+  color: black;
+}
+
+.row {
+  display: flexbox;
+}
+
+.row.color-one {
+  background-color: #565c5e;
+}
+
+.row.color-two {
+  background-color: #455954;
+}
+
+.row.color-three {
+  background-color: #9d7463;
+}
+
+.row.color-four {
+  background-color: #b5c2c7;
+}
+
+.row.color-five {
+  background-color: #dfdbd8;
+}
+
+.column {
+  flex: 30px;
+  padding: 5px;
+}
+
+.column.color-one {
+  background-color: #565c5e;
+}
+
+.column.color-two {
+  background-color: #455954;
+}
+
+.column.color-three {
+  background-color: #9d7463;
+}
+
+.column.color-four {
+  background-color: #b5c2c7;
+}
+
+.column.color-five {
+  background-color: #dfdbd8;
+  color: black;
+}
